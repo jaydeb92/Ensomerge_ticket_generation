@@ -53,7 +53,7 @@ $mail->setFrom($email_from,"jaydeb");
 /*$mail->addReplyTo('jaydeb.dey1992@gmail.com',"jaydeb");*/
 
 $address = $email_to;
-$mail->AddAddress($address, "jaydeb");
+$mail->AddAddress($address, "Himadri");
 
 // Email subject
 $mail->Subject = 'New Ticket generation mail';
